@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4_LESSION</title>
+</head>
+<body>
+    <div>
+        <h2>1). Зробіть фотму авторизації ...... </h2>
+        <span>Email</span><br>
+        <input type="text" name="mail" placeholder="Enter your email" maxlength="100"><br>
+        <span>Password</span><br>
+        <input type="text" name="password" placeholder="Enter yor password"><br><br>
+        <form action="">
+        <button type="submit">Sign in</button><br><br>
+        </form>
+    </div>
+<!-- ========================================================== -->
+        <h2>2). Зробіть верстку форми ...... </h2>
+        <h3>Ice cream wholesale</h3>
+        <h4>Choose the last and amount of ice cream</h4>
+
+        <div class="icecream">
+            <p><input name="icecream" type="checkbox">vanilla<br>quantity
+            <input type="number" name="vanila" minlength="10" maxlength="100" placeholder="99"></p>
+            <p><i>Price per unit: </i>15$</p>
+
+            <p><input name="icecream" type="checkbox">chocolate<br>quantity
+            <input type="number" name="chocolate" minlength="10" maxlength="100" value="99"></p>
+            <p><i>Price per unit: </i>20$</p>
+
+            <p><input name="icecream" type="checkbox">strawberry<br>quantity
+            <input type="number" name="strawberry" minlength="10" maxlength="100" value="99"></p>
+            <p><i>Price per unit: </i>18$</p>
+        </div>
+
+        <div class="Payment">
+            <h4>Payment</h4>
+            Credit card <input name="Pay" type="radio">
+            Paypal <input name="Pay" type="radio"> <br>
+            <p>
+            <form action="">
+            <button type="submit">Pay</button>
+            </form></p>
+        </div>
+
+<!-- ========================================================== -->
+        <h2>3). Створіть список, що випадає (select) ...... </h2>
+        <select name="crypto" id="" value="sddasdsad">
+            <option disabled selected>GET CRYPTOCURRENCY</option>
+            <option value="bitcoin">Bitcoin </option>
+            <option value="etherium">Etherium</option>
+            <option value="tether">Tether</option>
+            <option value="binance">Binance coin</option>
+            <option value="cardano">Cardano</option>
+        </select>
+
+<!-- ========================================================== -->
+        <h2>4). Створіть форму реєстрації на сайті ...... </h2>
+        <h3>Registration</h3>
+        <div>
+            <span>First name:</span><br>
+            <input type="text" placeholder="Enter your name" maxlength="20">
+            <p>Last name:<br>
+            <input type="text" placeholder="Enter your surname" maxlength="20"><p>
+            <p>Gender:<br>
+                Male<input name="gender" type="radio">Famale <input name="gender" type="radio"></p>
+            <p>Birthday <br>
+                <input type="date"></p>
+            <p>Write about yourself <br>
+                <textarea name="text" id="" cols="30" rows="10"></textarea></p>
+            <p>
+                <select name="course">
+                    <option disabled selected>CHOOSE a COURSE</option>
+                    <option value="backend">Backend</option>
+                    <option value="frontend">Frontend</option>
+                    <option value="web_design">Web design</option>
+                    <option value="3d_design">3D design</option>
+                </select>
+            </p>
+            <p>
+                <form action="">
+                <button type="submit">Sign UP</button>
+                </form>
+            </p>
+        </div>
+
+    
+
+</body>
+</html>
